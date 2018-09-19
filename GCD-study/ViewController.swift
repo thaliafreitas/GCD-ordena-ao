@@ -12,13 +12,26 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        doSyncWork()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
+    
+    
+    func doSyncWork() {
+        print ("** INI doSyncWork **")
+        let background = DispatchQueue.global()
+        background.sync {
+            for _ in 1...4 {print("Light") }
+        }
+        for _ in 1...4 {print ("Heavy")}
+        print ("** FIM doSyncWork ** \n\n\n")    }
+    
+    
+    func 
 
 
 }
