@@ -13,7 +13,6 @@
 		BE969F962152801E00A4D612 /* GCD_study.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE969F942152801E00A4D612 /* GCD_study.xcdatamodeld */; };
 		BE969F982152801F00A4D612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE969F972152801F00A4D612 /* Assets.xcassets */; };
 		BE969F9B2152801F00A4D612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE969F992152801F00A4D612 /* LaunchScreen.storyboard */; };
-		BE969FA62152801F00A4D612 /* GCD_studyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE969FA52152801F00A4D612 /* GCD_studyTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +35,6 @@
 		BE969F9A2152801F00A4D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE969F9C2152801F00A4D612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE969FA12152801F00A4D612 /* GCD-studyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCD-studyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE969FA52152801F00A4D612 /* GCD_studyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD_studyTests.swift; sourceTree = "<group>"; };
-		BE969FA72152801F00A4D612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				BE969F8C2152801D00A4D612 /* GCD-study */,
-				BE969FA42152801F00A4D612 /* GCD-studyTests */,
 				BE969F8B2152801D00A4D612 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,15 +84,6 @@
 				BE969F942152801E00A4D612 /* GCD_study.xcdatamodeld */,
 			);
 			path = "GCD-study";
-			sourceTree = "<group>";
-		};
-		BE969FA42152801F00A4D612 /* GCD-studyTests */ = {
-			isa = PBXGroup;
-			children = (
-				BE969FA52152801F00A4D612 /* GCD_studyTests.swift */,
-				BE969FA72152801F00A4D612 /* Info.plist */,
-			);
-			path = "GCD-studyTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE969FA62152801F00A4D612 /* GCD_studyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
